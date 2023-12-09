@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <test thread-count="5" name="BookSwagOnReport(failed)">
+    <classes>
+      <class name="steps.SearchAndTodaysDealsteps">
+        <methods>
+          <include name="getnameMethod"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="setup"/>
+          <include name="generateReports"/>
+          <include name="dealstoday"/>
+          <include name="generateTestStatus"/>
+        </methods>
+      </class> <!-- steps.SearchAndTodaysDealsteps -->
+    </classes>
+  </test> <!-- BookSwagOnReport(failed) -->
+</suite> <!-- Failed suite [test1] -->
